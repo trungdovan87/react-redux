@@ -19,7 +19,7 @@ const store = createStore(reducer);
 
 ReactDOM.render(
     <Provider store={store}>
-        <App />
+        <App title={"TODO LIST"}/>
     </Provider>
     , document.getElementById('root'));
 
